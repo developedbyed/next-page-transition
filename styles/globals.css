@@ -1,3 +1,24 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Archivo";
+  src: url("../public/ArchivoBlack-Regular.ttf");
+}
+@font-face {
+  font-family: "LatoLight";
+  src: url("../public/Lato-Light.ttf");
+}
+@font-face {
+  font-family: "LatoBold";
+  src: url("../public/Lato-Bold.ttf");
+}
+@font-face {
+  font-family: "LatoReg";
+  src: url("../public/Lato-Regular.ttf");
+}
+
 html,
 body {
   padding: 0;
@@ -13,14 +34,4 @@ a {
 
 * {
   box-sizing: border-box;
-}
-
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
 }
